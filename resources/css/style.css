@@ -1,0 +1,88 @@
+/*
+	COLOR
+	Dark Brown - #8B4513
+	Light Brown - #D2B48C
+*/
+
+*{
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.header {
+	width: 100%;
+	height: auto;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+h1 {
+	color: #8B4513;
+	font-weight: 700;
+	font-size: 40px;
+	font-family: 'Dosis', sans-serif;
+}
+
+.contactInfo {
+	width: 100%;
+	height: 50px;
+	background-color: #ECDFD1;
+}
+
+.contactListContainer {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+.cupLogo {
+	width: 100px;
+	position: absolute;
+	left: 20px;
+	top: 70px;
+}
+
+.homeLogo {
+	width: 100px;
+	position: absolute;
+	left: 20px;
+	top: 30px;
+}
+
+.tabsContainer {
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.homeBody {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+}
+
+.mugContainer {
+	width: 40%;
+	height: auto;
+}
+
+.mugImg {
+	width: 100%;
+}
+
+.welcomeMessageContainer {
+	width: 60%;
+	height: auto;
+	padding: 20px;
+}
+
+.message {
+	color: #8B4513;
+
+}
