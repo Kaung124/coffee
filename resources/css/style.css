@@ -112,3 +112,7 @@ h1 {
 	font-size: 20px;
 	line-height: 200%;
 }
+
+.homePageMessage {
+	text-align: center;
+}
